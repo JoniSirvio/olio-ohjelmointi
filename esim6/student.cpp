@@ -62,6 +62,7 @@ Student::Student()
 Student::Student(string fn, string ln, string em, int a)
 {
     fname=fn;
+    // tai setFname(fn);
     lname=ln;
     email=em;
     setAge(a);

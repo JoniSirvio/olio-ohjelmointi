@@ -12,7 +12,7 @@ int main()
     objStudent1->setEmail("liisa.joki@oamk.fi");
     objStudent1->setAge(17);
 
-    Student *objStudent2=new Student("Teppo","Testi","teppo.testi@oma.com",-24);
+    Student *objStudent2=new Student("Teppo","Testi","teppo.testi@oma.com",24);
 
     objStudent1->studentInfo();
     objStudent2->studentInfo();
