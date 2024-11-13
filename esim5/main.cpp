@@ -10,24 +10,24 @@ int main()
     //Luodaan ns. automaatinen olio
     //tällainen olio luodaan pinoon ja se
     //tuhoutuu automaattisesti
-    // Person objPerson;
-    // objPerson.setName("Teppo Testi");
-    // objPerson.setAge(24);
-    // cout<<"Henkilon nimi on: "<<objPerson.getName()<<endl;
-    // cout<<"Henkilon ika on: "<<objPerson.getAge()<<endl;
-    // objPerson.personInfo();
+    Person objPerson;
+    objPerson.setName("Teppo Testi");
+    objPerson.setAge(24);
+    cout<<"Henkilon nimi on: "<<objPerson.getName()<<endl;
+    cout<<"Henkilon ika on: "<<objPerson.getAge()<<endl;
+    objPerson.personInfo();
 
     //Luodaan ns. dynaaminen olio
     //tällainen olio luodaan kekoon ja se
     //täytyy tuhota itse
 
-    // Person *objPerson2;
-    // objPerson2=new Person;
-    // objPerson2->setName("Aino Joki");
-    // objPerson2->setAge(25);
-    // objPerson2->personInfo();
-    // delete objPerson2;
-    // objPerson2=nullptr;
+    Person *objPerson2;
+    objPerson2=new Person;
+    objPerson2->setName("Aino Joki");
+    objPerson2->setAge(25);
+    objPerson2->personInfo();
+    delete objPerson2;
+    objPerson2=nullptr;
 
     //luodaan olio smart-pointterin avulla
     //tällainen olio luodaan kekoon ja se
