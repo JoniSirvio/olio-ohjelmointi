@@ -26,7 +26,7 @@ int main()
     //for-looppi, jos ei tiedetä alkioiden määrää
     cout<<"VERSIO2"<<endl;
     for(const Cat& cat: catList){
-        cout<<"Nimi= "<<cat.getName()<<" ja vari"<<cat.getColor()<<endl;
+        cout<<"Nimi= "<<cat.getName()<<" ja vari= "<<cat.getColor()<<endl;
     }
 
     return 0;
