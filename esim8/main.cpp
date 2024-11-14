@@ -20,12 +20,11 @@ int main()
     Cat objCat2=Cat(5,"musta","Teppo");
 
     cout<<"Eka kissan omistaja= "<<objCat.getOwner()<<endl;
-            cout<<"Toka kissan omistaja= "<<objCat2.getOwner()<<endl;
+            cout<<"Toka kissan omistaja="<<objCat2.getOwner()<<endl;
 
     objCat.printData();
-            objCat2.printData();
+    objCat2.printData();
     objElephant.printData();
-
 
     return 0;
 }

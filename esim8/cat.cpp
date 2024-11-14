@@ -18,7 +18,7 @@ Cat::~Cat()
 void Cat::printData()
 {
     cout<<"********************"<<endl;
-    cout<<"Kissan vari= "<<this->getOwner()<< "ja paino= "<<this->getWeight()<<endl;
+    cout<<"Kissan vari= "<<this->getOwner()<< " ja paino= "<<this->getWeight()<<endl;
     cout<<"Kissan omistaja= "<<owner<<endl;
     cout<<"********************"<<endl;
 }
