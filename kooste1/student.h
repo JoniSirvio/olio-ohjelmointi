@@ -9,6 +9,7 @@ private:
     string name;
 public:
     Student();
+    ~Student();
     Student(string);
     void getData();
 };
