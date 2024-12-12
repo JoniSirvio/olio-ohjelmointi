@@ -4,6 +4,9 @@ FirstClass::FirstClass(QObject *parent)
     : QObject{parent}
 {
     qDebug()<<"FirstClass olio luotiin\n";
+    //luodaan SecondClass luokan olio objSecondClass
+    //asetetaan nykyinen olio objSecondClass olion parentiksi
+    //objSecondClass tuhoutuu, kun nykyinen olio tuhoutuu
     objSecondClass=new SecondClass(this);
 }
 
